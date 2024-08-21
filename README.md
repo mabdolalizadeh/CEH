@@ -22,3 +22,32 @@ for changing ip with nmap do this:
 ```console
 nmap -S [new ip] -Pn -p [port] -e [interface] [ip target]
 ```
+## ICMP
+### Ping
+ping means ip can you here me?
+type **one** *successed*
+```console
+ping 4.2.2.4
+# reply from 4.2.2.4: bytes=32 time=30ms TTL=46
+```
+type **two** *request timed out*: it means somewhere we have problem but we don't know where
+```console
+ping 4.2.2.4
+# request timed out
+```
+type **three** *destination host unreachable*: you must focus on ***reply from*** destination after that ip is down but may be
+```console
+ping 4.2.2.4
+# reply from 4.2.2.8: destination host unreachable
+```
+type **four** *destination net unreachable*: it means you don't have access to that network
+```console
+ping 4.2.24
+# reply from 192.168.1.1: destination net unreachable
+```
+type **five** *admin prohibited*: means admin says don't give access to you
+```console
+ping 4.2.2.4
+# reply from 4.2.2.8: communication with administer prohibited
+```
+### traceroute
