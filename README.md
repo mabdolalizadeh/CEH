@@ -50,4 +50,3 @@ type **five** *admin prohibited*: means admin says don't give access to you
 ping 4.2.2.4
 # reply from 4.2.2.8: communication with administer prohibited
 ```
-### traceroute
