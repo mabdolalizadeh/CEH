@@ -58,3 +58,5 @@ ping 4.2.2.4
 3- whenever we don't have access except an specific adress we can make link on that adress
 4- sometimes you need to change the cookies for example log in
 5- with `curl` you can get access to some parts of website
+6- you can see a page after `?page=`
+7- when we have **command** in codes you can seprate command with `;`
