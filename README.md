@@ -50,3 +50,11 @@ type **five** *admin prohibited*: means admin says don't give access to you
 ping 4.2.2.4
 # reply from 4.2.2.8: communication with administer prohibited
 ```
+# Natas
+1- checking directory of website
+2- check the robots.txt
+> robots.txt is a file that says to **search engine** to what to do
+
+3- whenever we don't have access except an specific adress we can make link on that adress
+4- sometimes you need to change the cookies for example log in
+5- with `curl` you can get access to some parts of website
