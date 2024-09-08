@@ -60,3 +60,8 @@ ping 4.2.2.4
 5- with `curl` you can get access to some parts of website
 6- you can see a page after `?page=`
 7- when we have **command** in codes you can seprate command with `;`
+8- with grep you can add -r for searching in directory
+> we know grep use regex
+
+9- sometimes you must change some cookies for access
+10- 
