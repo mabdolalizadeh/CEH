@@ -65,6 +65,13 @@ for remoting desktop you must use `seth`. you can clone it from [here](https://g
 ### sql
 for getting username in sql use `' or 1=1;--`
 you can use `sqlmap` for checking database
+
+# burt force
+check many passwords to get password. we use `hydra`
+```console
+hydra -l [user] -P [password_list] protocol://ip
+```
+
 # Natas
 1- checking directory of website
 2- check the robots.txt
