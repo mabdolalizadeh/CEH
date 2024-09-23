@@ -71,6 +71,7 @@ check many passwords to get password. we use `hydra`
 ```console
 hydra -l [user] -P [password_list] protocol://ip
 ```
+we have a password list in kali in `/user/share/rockyou.txt/`
 
 # Natas
 1- checking directory of website
