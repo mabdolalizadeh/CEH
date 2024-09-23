@@ -59,6 +59,9 @@ in here after `-p` we must add our platform and payload type and after `-f` add 
 
 for changing process you can use `migrate`.
 
+
+for social engineering you can use `setoolkit` but remember you must be **root**.
+for remoting desktop you must use `seth`. you can clone it from [here](https://github.com/SySS-Research/Seth)
 ### sql
 for getting username in sql use `' or 1=1;--`
 you can use `sqlmap` for checking database
