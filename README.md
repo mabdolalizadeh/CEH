@@ -61,6 +61,8 @@ for changing process you can use `migrate`.
 with `python3 -m http.srever [port]` you can make a server in your directory
 for social engineering you can use `setoolkit` but remember you must be **root**.
 for remoting desktop you must use `seth`. you can clone it from [here](https://github.com/SySS-Research/Seth)
+we use `shelter` for put payload in another file.
+
 ### sql
 for getting username in sql use `' or 1=1;--`
 you can use `sqlmap` for checking database
@@ -80,6 +82,8 @@ kiwi_cmd sekurlsa::logonpasswords
 for cracking hash, we can use ophcrack. and get the tables of it from its [website](https://ophcrack.sourceforge.io/tables.php)
 ## Wifi
 for attacking wifi we need `airgeddon`. it must run with `sudo`.
+## Android
+we use `evil-droid` you can get it from [here](https://github.com/M4sc3r4n0/Evil-Droid)
 
 # Natas
 1- checking directory of website
