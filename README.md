@@ -78,6 +78,9 @@ kiwi_cmd sekurlsa::logonpasswords
 ```
 
 for cracking hash, we can use ophcrack. and get the tables of it from its [website](https://ophcrack.sourceforge.io/tables.php)
+## Wifi
+for attacking wifi we need `airgeddon`. it must run with `sudo`.
+
 # Natas
 1- checking directory of website
 2- check the robots.txt
