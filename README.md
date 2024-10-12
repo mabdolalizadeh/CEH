@@ -101,3 +101,8 @@ we use `evil-droid` you can get it from [here](https://github.com/M4sc3r4n0/Evil
 9- sometimes you must change some cookies for access
 10- if you can upload a file, you can change the format and run what you want...(use burpsuit)
 11- magic number is a part of your file that shows what type is it. you can add magic number to  the first of your php file to access to uploading it. you can change magic number with `hexeditor`.
+12- with `$()` you can run a new command in a command for example:
+```console
+echo $(ls)
+# it puts ls output here
+```
