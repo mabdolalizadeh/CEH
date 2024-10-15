@@ -106,3 +106,28 @@ we use `evil-droid` you can get it from [here](https://github.com/M4sc3r4n0/Evil
 echo $(ls)
 # it puts ls output here
 ```
+
+# OWASP Top Ten
+## os command injection
+command injection means you exploit with having problems in os command.
+for running to commands in **linux** you can use this methods
+```consloe
+ping 4.2.2.4; ls -ltrh
+#both run
+ping 4.2.2.4 && ls -ltrh
+#if first one runs other will run
+ping 4.2.2.4 || ls -ltrh
+#if first command runs, second one won't run, and reverse
+pwd | grep rc
+#give the result of first command to second command
+pwd & grep rc
+#first command goes to background job and second one start then first one start again 
+```
+in **windows**:
+```console
+dir & whoami
+#both run
+dir | whoami
+#just second one runs
+```
+### Out of Bond (oob)
