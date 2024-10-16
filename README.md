@@ -131,3 +131,4 @@ dir | whoami
 #just second one runs
 ```
 ### Out of Bond (oob)
+for adding the result to a new file we use this sign `>`. if we use `>>` it append in a file that we had it before.
