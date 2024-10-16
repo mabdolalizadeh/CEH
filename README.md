@@ -106,6 +106,7 @@ we use `evil-droid` you can get it from [here](https://github.com/M4sc3r4n0/Evil
 echo $(ls)
 # it puts ls output here
 ```
+13- for blining sql injection(the that you can't see the result of your query request) you can use `AND sleep(10)` to check that is your query is correct or not. if your query is correct it will sleep 10 second.
 
 # OWASP Top Ten
 ## os command injection
