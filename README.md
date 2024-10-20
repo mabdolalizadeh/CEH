@@ -135,4 +135,4 @@ dir | whoami
 for adding the result to a new file we use this sign `>`. if we use `>>` it append in a file that we had it before.
 
 ### by passing command injections
-on of ways to bypassing is using `', " or \`. for example `p'wd'` or `c"a"t` or `pi\ng`
+on of ways to bypassing is using `', " or \`. for example `p'wd'` or `c"a"t` or `pi\ng`. `$IFS` means space.
